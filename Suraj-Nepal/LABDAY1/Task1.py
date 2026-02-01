@@ -23,8 +23,6 @@ def plot_dda(x1,x2,y1,y2):
     plt.ylabel("Y")
     plt.grid(True)
     plt.axis('equal')
-    for i in range(len(xes)):
-        print("X=",xes[i])
-        print("Y=",yes[i])
+    print("X=",xes,"\nY=",yes)
     plt.show()
 plot_dda(2,3,15,9)
